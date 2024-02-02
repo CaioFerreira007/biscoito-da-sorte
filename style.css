@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+            
+background-size: 200% 200%;
+display: flex;
+justify-content: center;
+}
+main .hide{
+    display: none;
+}
+h1{
+
+    color: #34355B;
+font-family: Montserrat;
+
+font-weight: 700;
+padding-bottom:1.4rem ;
+width: 25.8rem;
+}
+p{
+    color: #34355B;
+font-family: "DM Sans";
+font-size: 2rem;
+padding-bottom: 2.6rem;
+font-weight: 400;
+
+}
+main{
+    text-align: center;
+
+    margin-top: 15rem;
+   width: 42.8rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+}
+#cookie:hover{
+    animation: gradient 10s ease infinite;
+}
+button{
+    background:none ;
+    border: none;
+    cursor: pointer;
+}
+
+.page-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-2 h1{
+    padding-bottom: 2rem;
+}
+.message{
+
+    background-color: #e1cece;
+box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+border-radius: 2rem;
+}
+.message p {
+    padding: 1rem;
+    font-size: 2.4rem;
+
+}
+.page-2 img{
+padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.page-2 button{
+    background-color: orange;
+    padding: 1.6rem;
+    color: white;
+    border-radius: 6px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
